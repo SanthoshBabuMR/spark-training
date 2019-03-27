@@ -1,0 +1,22 @@
+Steps for scala
+1. go to "https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html"
+2. accept licence agreement
+3. Download jdk as per OS and architecture (32/64 bit) of your machine
+4. double click on downloaded exe , keep pressing "Next" where required.
+5. note down the location where this exe will keep java on your machine(second window bottom left)
+6.copy the path of java installation folder (step 4 till jdk1.8/version no)
+7. goto control panel -> system and security -> system -> advance system settings
+8. click on environment variables
+9. under system variable (lower pane) , click on path and edit
+10 paste the java folder location\bin(step 6) at the end 
+11 under User variables for codebind (upper pane) -> click new -> in new window type varible name - JAVA_HOME and varible value - paste step 6 location + ok
+12 . open cmd and type java -version (to check)
+13 google download scala . this will take you to scala-lang-org(first site)
+14. you can download ide or sbt
+15. click on download download sbt -> download according to plateform
+16. install the download file and notedown path(at bottom)
+17 once again goto environment varible -> paste the location\bin in path varible
+18 
+
+
+
